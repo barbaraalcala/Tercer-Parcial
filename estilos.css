@@ -30,7 +30,6 @@ li a {
 .container-fluid{
 	width: 100%;
 	max-width: 1900px;
-	margin: 0 auto;
 	overflow: hidden;
 }
 .img1{
@@ -75,7 +74,7 @@ li a {
 }
 #centrado a:hover {
 	text-decoration: none;
-	background: #54d154;
+	background: blue;
 	transform: scale(1.05);
 }
 .margenIni{
@@ -85,11 +84,94 @@ li a {
 	padding-top: 15px;
 	padding-bottom: 40px;
 }
-@media screen and (max-width: 800px){
-	.container-fluid{
-		width: 100%;
-	}
+
+
+.seccion6{
+	width:100% ;
+	height: 340px;
+	background:white ;
 }
+.txtH2{
+	text-align: center;
+	font-size:28px ;
+	color:#2d3033 ;
+	padding-top: 90px;
+	padding-bottom: 10px;
+}
+.txtH3{
+	text-align: center;
+	font-size:11px ;
+	color:#2d3033 ;
+	padding-bottom: 30px;
+}
+.botonSec6{
+	height:46px!important ;
+	width:280px!important ;
+}
+.txtH4a{
+	text-align: center;
+	font-size:12px ;
+	color:#7c7c7d ;
+}
+.txtH4b{
+	text-align: center;
+	font-size:12px ;
+	color:white ;
+}
+footer{
+	padding-top: 20px;
+	height:94px ;
+	background: #313454;
+}
+.corazon{
+	color: red;
+}
+.seccion7{
+	height:251px;
+	background: #3a3e64;
+}
+.txtP{
+	text-align: center;
+	font-size:13px ;
+	color:#adaebb ;
+}
+.txtH3a{
+	text-align: center;
+	font-size:15px ;
+	color:white ;
+	/*padding-top: 75px;
+	padding-bottom: 10px;*/
+}
+.agrupado{
+	display: flex;
+	direction: row;
+	align-items: center;
+	justify-content: center;
+	padding-top: 70px;
+	padding-bottom: 95px;
+}
+.iconosCont{
+	display: flex;
+	direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.iconos{
+	color: white;
+	align-content: center!important;
+	border:2px solid white;
+	height: 40px;
+	width: 40px;
+	margin: 6px;
+	padding-top:10px ;
+	padding-left:10px ;
+	font-size:16px; 
+}
+.slick-prev:before,.slick-next:before{
+	color: #444;
+}
+/*Termina parte 1, 6, 7 y 8/*
+
 /*inicio seccion 2*/
 .seccion-2{
 	padding: 15px auto;
@@ -108,8 +190,8 @@ li a {
 .seccion-2 h4{
 	font-weight: bold;
 	text-align: center;
-	font-size: 14px;
-	color: #3b3e41;
+	font-size: 16px;
+	color: #2d3033;
 }
 .seccion-2 p{
 	font-weight: normal;
@@ -161,23 +243,21 @@ li a {
 
 }
 .descripcion figcaption, .descripcion2 figcaption {
-  color: #fdf3f2;
+  color: white;
    height: 100%;
   left: 0;
-  line-height: 228px;
+  line-height: 250px;
   position: absolute;
   text-align: center;
   text-transform: uppercase;
   top: 0;
-  font-weight: bold;
-  font-size: 14px;
+  font-weight: normal;
+  font-size: 12px;
   transition: all .23s ease;
   width: 100%;
 }
 .descripcion2 figcaption{
-	color: #fdf3f2;
-	margin: 25px auto;
+	color: white;
+	margin: 15px auto;
 	font-size: 10px;
-	font-weight: normal;
-
 }
