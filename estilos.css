@@ -156,8 +156,6 @@ footer{
 	align-items: center;
 	justify-content: center;
 }
-
-
 .iconos{
 	color: white;
 	align-content: center!important;
@@ -169,8 +167,97 @@ footer{
 	padding-left:10px ;
 	font-size:16px; 
 }
-
-
 .slick-prev:before,.slick-next:before{
 	color: #444;
+}
+/*Termina parte 1, 6, 7 y 8/*
+
+/*inicio seccion 2*/
+.seccion-2{
+	padding: 15px auto;
+    margin-left: 150px;
+    margin-right: 160px;
+    margin: 120px auto;
+    padding-left: 160px;
+    padding-right: 160px;
+
+}
+
+.seccion-2 img{
+	align-items: center;
+
+}
+.seccion-2 h4{
+	font-weight: bold;
+	text-align: center;
+	font-size: 16px;
+	color: #2d3033;
+}
+.seccion-2 p{
+	font-weight: normal;
+	text-align:center;
+	font-size: 12px;
+	color: #6c7279;
+	margin: 15px;
+}
+.centrado img{
+	align-items: center;
+
+}
+#img-seccion2 {
+	    position: center;
+    /* left: 10px; */
+    /* top: 12px; */
+    width: 50px;
+    height: 55px;
+    margin: 15px;
+    margin-left: 140px;
+    /* max-width: 620px; */
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/*inicio seccion 3*/
+.seccion3{
+	margin: none;
+	padding: none;
+	padding-left: none;
+}
+.img-thumb{  
+     margin-right: -2px;
+}
+.img-thumb img{
+    width: 339px;
+    height: 221px;
+}
+
+/*cpa hover*/
+.descripcion{
+	width: 338px;
+	height: 221px;
+	position: absolute;
+	z-index: 2;
+	background-color: #da4746;
+	opacity: 0.9;
+	display: none;
+
+}
+.descripcion figcaption, .descripcion2 figcaption {
+  color: white;
+   height: 100%;
+  left: 0;
+  line-height: 250px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 0;
+  font-weight: normal;
+  font-size: 12px;
+  transition: all .23s ease;
+  width: 100%;
+}
+.descripcion2 figcaption{
+	color: white;
+	margin: 15px auto;
+	font-size: 10px;
 }
