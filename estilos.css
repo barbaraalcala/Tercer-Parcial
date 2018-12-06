@@ -152,8 +152,7 @@ li a {
 	margin-left: 0px;*/
 	background:url("img/imgSecc5.jpg");
 	background-repeat: no-repeat;
-
-
+	background-size: cover;
 	
 }
 .integer{
